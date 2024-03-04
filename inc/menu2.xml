@@ -1,0 +1,48 @@
+<!--
+   Theme : Persona 5
+   creator : Woo -wook
+   version: 1.1
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+   <view name="menu">
+      <menuText name="menutitle, menutext, menufooter, menugroup">
+         <color>FFFFFF</color>
+      </menuText>
+      <menuText name="menutitle">
+         <fontSize>0.045</fontSize>
+      </menuText>
+      <menuText name="menufooter">
+         <fontSize>0.025</fontSize>
+      </menuText>
+      <menuText name="menutext">
+         <separatorColor>00000000</separatorColor>
+         <selectorColor>FF0000</selectorColor>
+         <fontSize>0.041</fontSize>
+         <horizontalMargin>0.1</horizontalMargin>
+      </menuText>
+      <menuGroup name="menugroup">
+         <color>FF0000</color>
+         <fontSize>0.035</fontSize>
+      </menuGroup>
+      <menuBackground name="menubg">
+         <color>000000AA</color>
+         <cornerSize>11 11</cornerSize>
+      </menuBackground>
+      <menuTextEdit name="menutextedit">
+         <inactive>./asset/images/menu/textinput.png</inactive>
+         <active>./asset/images/menu/textinput_active.png</active>
+      </menuTextEdit>
+   </view>
+   
+   <!-- 
+    <menuButton name="menubutton">
+      <path>./../art/button.png</path>
+      <filledPath>./../art/button_filled.png</filledPath>
+      <cornerSize>8 8</cornerSize>
+    </menuButton>
+   -->
+
+</theme>

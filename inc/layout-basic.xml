@@ -1,0 +1,23 @@
+<!--
+   Theme : Persona 5
+   creator : Woo -wook
+   version: 1.1
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <view name="basic">
+      <image name="gamelist_bg" extra="true">
+         <path>./asset/images/gamelist_basic_bg.svg</path>
+      </image>
+      <image name="gamelist_list_bg" extra="true">
+         <size>0.95 0.825</size>
+         <pos>0.03125 0.15</pos>
+      </image>
+      <textlist name="gamelist"> 
+         <size>0.86 0.7</size>
+         <pos>0.07 0.22</pos>
+      </textlist>
+   </view>
+</theme>

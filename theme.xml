@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Theme : Persona 5
+	creator : Woo -wook
+	supporter : Dual core
+	version: 1.1
+	edited by WakeTT
+-->
+
+<theme defaultTransition="slide">
+<formatVersion>7</formatVersion>
+
+
+	<subset name="System logo spacing" displayName="System logo spacing">
+		<include name="5" displayName="Narrow">./inc/logoCount-5.xml</include>
+		<include name="3" displayName="Wide">./inc/logoCount-3.xml</include>
+	</subset>
+
+	<subset name="Logo Magqui display in the list view" displayName="Logo Magqui display in the list view">
+		<include name="on2" displayName="Logo marqui can be seen">./inc/logoView-on2.xml</include>
+		<include name="on" displayName="Hide logo to hide">./inc/logoView-on.xml</include>
+		<include name="off" displayName="Hide the logo hide">./inc/logoView-off.xml</include>
+		<include name="off2" displayName="Hide all logo marquis">./inc/logoView-off2.xml</include>
+	</subset>
+
+	<subset name="Number of games" displayName="Number of games">
+		<include name="on3" displayName="All visible">./inc/gameCount-on_jel.xml</include>
+		<include name="off" displayName="Hidden">./inc/gameCount-off.xml</include>
+	</subset>
+
+	<subset name="Whether the battery position clock is displayed" displayName="Whether the battery position clock is displayed">
+		<include name="left" displayName="left side">./inc/screen1.xml</include>
+		<include name="right" displayName="right">./inc/screen2.xml</include>
+		<include name="off1" displayName="Battery left clock">./inc/screen-off1.xml</include>
+		<include name="off2" displayName="Right clock on the battery">./inc/screen-off2.xml</include>
+	</subset>
+
+	<subset name="Menu icon display" displayName="Menu icon display">
+		<include name="on" displayName="Visible">./inc/menuIcon-on.xml</include>
+		<include name="off" displayName="Hidden">./inc/menuIcon-off.xml</include>
+	</subset>
+
+	<subset name="Main wallpaper" displayName="Main wallpaper">
+		<include name="bg1" displayName="Wallpapers1">./inc/bg1.xml</include>
+		<include name="bg2" displayName="Wallpapers2">./inc/bg2.xml</include>
+		<include name="bg3" displayName="Wallpapers3">./inc/bg3.xml</include>
+		<include name="bg4" displayName="Wallpapers4">./inc/bg4.xml</include>
+		<include name="bg5" displayName="Wallpapers5">./inc/bg5.xml</include>
+	</subset>
+
+   <subset name="Hat and child icon display" displayName="Hat and child icon display">
+      <include name="on" displayName="Visible">./inc/HatIcon-on.xml</include>
+      <include name="off" displayName="Hidden">./inc/HatIcon-off.xml</include>
+   </subset>
+
+	<subset name="font" displayName="font">
+		<include name="type9" displayName="SC Dream">./inc/font-type9.xml</include>	
+		<include name="type2" displayName="speed">./inc/font-type2.xml</include>
+		<include name="type1" displayName="Rocket">./inc/font-type1.xml</include>
+		<include name="type3" displayName="monster">./inc/font-type3.xml</include>
+		<include name="type4" displayName="Time machine">./inc/font-type4.xml</include>
+		<include name="type5" displayName="black">./inc/font-type5.xml</include>
+		<include name="type6" displayName="hurricane">./inc/font-type6.xml</include>
+		<include name="type7" displayName="Car racer">./inc/font-type7.xml</include>
+		<include name="type8" displayName="Kopub">./inc/font-type8.xml</include>
+		<include name="type0" displayName="Square dream">./inc/font-type0.xml</include>
+	</subset>
+<subset name="View details: image size" displayName="View details: image size">
+		<include name="full" displayName="Ignore the ratio and fill it up">./inc/detailedImage-full.xml</include>
+	  <include name="aspect" displayName="Even if you have a letterbox">./inc/detailedImage-aspect.xml</include>
+		<include name="crop" displayName="Even if it is a good lead, it is filled while maintaining the ratio">./inc/detailedImage-crop.xml</include>
+	</subset>
+
+	<subset name="Video: Image size" displayName="Video: Image size">
+		<include name="aspect" displayName="Even if you have a letterbox">./inc/videoImage-aspect.xml</include>
+		<include name="full" displayName="Ignore the ratio and fill it up">./inc/videoImage-full.xml</include>
+	</subset>
+
+	<subset name="Video: Video Size" displayName="Video: Video Size">
+		<include name="aspect" displayName="Even if you have a letterbox">./inc/videoVideo-aspect.xml</include>
+		<include name="full" displayName="Ignore the ratio and fill it up">./inc/videoVideo-full.xml</include>
+	</subset>
+
+	<subset name="Metadata: Display of the release date" displayName="Metadata: Display of the release date">
+		<include name="on2" displayName="Visible RGB30">./inc/mdReleaseDate-on2.xml</include>
+<!-- 		<include name="on" displayName="Visible">./inc/mdReleaseDate-on.xml</include> -->
+		<include name="off" displayName="Hidden">./inc/mdReleaseDate-off.xml</include>
+	</subset>
+
+	<subset name="Metadata: Display number of play" displayName="Metadata: Display number of play">
+		<include name="on2" displayName="Visible RGB30">./inc/mdPlayTime-on2.xml</include>
+<!-- 		<include name="on" displayName="Visible">./inc/mdPlayTime-on.xml</include> -->
+		<include name="off" displayName="Hidden">./inc/mdPlayTime-off.xml</include>
+	</subset>
+
+	<subset name="Metadata: Rating" displayName="Metadata: Rating">
+		<include name="on2" displayName="Visible RGB30">./inc/mdRating-on2.xml</include>
+<!-- 		<include name="on" displayName="Visible">./inc/mdRating-on.xml</include> -->
+		<include name="off" displayName="Hidden">./inc/mdRating-off.xml</include>
+	</subset>
+
+	<subset name="BGM select" displayName="BGM Selection (ES Restart Application)">
+		<include name="bgm1" displayName="Wake Up, Get Up, Get Out There">./inc/bgm1.xml</include>
+		<include name="bgm2" displayName="Life Will Change">./inc/bgm2.xml</include>
+		<include name="bgm3" displayName="The Poem of Everyone’s Souls">./inc/bgm3.xml</include>
+		<include name="bgm4" displayName="Last Surprise">./inc/bgm4.xml</include>
+		<include name="bgm5" displayName="Beneath the Mask">./inc/bgm5.xml</include>
+		<include name="bgm6" displayName="Alleycat">./inc/bgm6.xml</include>
+		<include name="nobgm" displayName="Turn off">./inc/mute.xml</include>
+	</subset>
+
+	<!-- font -->
+	<view name="system, basic, detailed, video, screen, menu">
+		<text name="systemInfo, clock, md_playcount"> <!--배터리 추가-->
+			<fontPath>${themeFontPath}</fontPath>
+		</text>
+		<textlist name="gamelist">
+			<fontPath>${themeFontPath}</fontPath>
+		</textlist>
+		<helpsystem name="help">
+			<fontPath>${themeFontPath}</fontPath>
+		</helpsystem>
+		<menuText name="menutitle, menutext, menufooter, menugroup">
+			<fontPath>${themeFontPath}</fontPath>
+		</menuText>
+		<datetime name="md_releasedate">
+			<fontPath>${themeFontPath}</fontPath>
+		</datetime>
+	</view>
+
+	<!-- Main screen system wheel -->
+	<feature supported="carousel">
+		<view name="system">
+			<carousel name="systemcarousel">
+				<type>vertical_wheel</type>
+				<size>0.65 1</size>
+				<origin>0 0.5</origin>
+				<pos>0 0.5</pos>
+				<color>FFFFFF00</color>
+				<logoAlignment>left</logoAlignment>
+				<logoSize>0.3 0.2</logoSize>
+				<logoScale>2</logoScale>
+				<logoRotation>${logoRotationValue}</logoRotation>
+			<systemInfoDelay>120</systemInfoDelay>
+				<zIndex>5</zIndex>
+			</carousel>
+
+		<image name="mainBackground" extra="true">
+			<tile>false</tile>
+			<path>./asset/background/rgb30/${bgnumber}.png</path>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<zIndex>0</zIndex>
+		</image>
+<!--addition-->
+         <image name="hat" extra="true">
+            <path>./asset/images/new/hat.png</path>
+            <maxSize>0.30 0.45</maxSize>
+            <origin>0.5 0.5</origin>
+            <pos>0.775 0.775</pos>
+            <zIndex>4</zIndex>
+            <visible>${HatIconViewValue}</visible>
+         </image>
+<!--addition-->
+		</view>
+	</feature>
+	
+	<!-- System logo -->
+	<view name="system, basic, detailed, video">
+		<image name="logo">
+			<path>./asset/logos/${system.theme}.png</path>
+			<path>./asset/logos/${system.theme}.svg</path>
+		</image>
+	</view>
+
+	<!-- Game list common -->
+	<view name="basic, detailed, video">
+		<image name="gamelist_title_bg" extra="true">
+			<path>./asset/images/gamelist_title_bg.svg</path>
+			<origin>0 0</origin>
+			<size>1 0.225</size>
+			<pos>0 0</pos>
+			<zIndex>5</zIndex>
+		</image>
+		<textlist name="gamelist">
+			<separatorColor>00000000</separatorColor>
+			<selectorColor>FFFFFF</selectorColor>
+			<selectedColor>000000</selectedColor>
+			<primaryColor>FFFFFF</primaryColor>
+			<secondaryColor>FF0000</secondaryColor>
+			<alignment>center</alignment>
+			<!-- <fontSize>0.032</fontSize> -->
+			<!-- <lineSpacing>1.8</lineSpacing> -->
+			<selectorHeight>0.06</selectorHeight>
+			<zIndex>4</zIndex>
+		</textlist>
+		<image name="gamelist_bg" extra="true">
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<zIndex>0</zIndex>
+		</image>
+		<image name="gamelist_list_bg" extra="true">
+			<path>./asset/images/gamelist_list_bg.png</path>
+			<origin>0 0</origin>
+			<zIndex>3</zIndex>
+		</image>
+		<text name="md_lbl_releasedate, md_lbl_gametime, md_lbl_rating, md_lbl_playcount">
+			<visible>false</visible>
+		</text>
+	</view>
+
+	<!-- <include name="screen">./inc/screen.xml</include> -->
+	<include name="screen">./inc/help.xml</include>
+
+	<subset name="Menu screen" displayName="Menu screen">
+		<include name="menu2" displayName="Menu screen RGB30">./inc/menu2.xml</include>
+		<include name="menu1" displayName="Menu screen ACOS">./inc/menu1.xml</include>
+		<include name="menu1-1" displayName="Menu screen gelos">./inc/menu1-1.xml</include>
+	</subset>
+	<include name="menu">./inc/layout-basic.xml</include>
+	<include name="menu">./inc/layout-detailed.xml</include>
+	<include name="menu">./inc/layout-video.xml</include>
+
+</theme>

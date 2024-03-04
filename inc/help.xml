@@ -1,0 +1,33 @@
+<!--
+   Theme : Persona 5
+   creator : Woo -wook
+   version: 1.1
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+   <view name="system, basic, detailed, video">
+      <helpsystem name="help">
+         <fontSize>0.026</fontSize>
+         <size>1 0.05</size>
+         <origin>1 1</origin>
+         <pos>1 0.9875</pos>
+         <alignment>right</alignment>
+         <textColor>FFFFFF</textColor>
+         <iconColor>FFFFFF</iconColor>
+         <iconA>./asset/images/help/button_a.svg</iconA>
+         <iconB>./asset/images/help/button_b.svg</iconB>
+         <iconX>./asset/images/help/button_x.svg</iconX>
+         <iconY>./asset/images/help/button_y.svg</iconY>
+         <iconL>./asset/images/help/button_l.svg</iconL>
+         <iconR>./asset/images/help/button_r.svg</iconR>
+         <iconUpDownLeftRight>./asset/images/help/dpad_all.svg</iconUpDownLeftRight>
+         <iconLeftRight>./asset/images/help/dpad_leftright.svg</iconLeftRight>
+         <iconUpDown>./asset/images/help/dpad_updown.svg</iconUpDown>
+         <iconStart>./asset/images/help/button_start.svg</iconStart>
+         <iconSelect>./asset/images/help/button_select.svg</iconSelect>
+         <zIndex>10</zIndex>
+      </helpsystem>
+   </view>
+</theme>

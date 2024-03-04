@@ -1,0 +1,40 @@
+<!--
+   Theme : Persona 5
+   creator : Woo -wook
+   version: 1.1
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+   <view name="system, basic, detailed, video">
+      <image name="bg_clock" extra="true">
+         <path>./asset/images/indicator/clock_bg.png</path>
+         <size>0.125 0.075</size>
+         <origin>1 0.0</origin>
+         <pos>0.95 0</pos>
+         <zIndex>6</zIndex>
+      </image>
+   </view>
+
+   <view name="screen">
+      <text name="clock">
+         <alignment>center</alignment>
+         <size>0.125 0.075</size>
+         <origin>1 0</origin>
+         <pos>0.95 0</pos>
+         <fontSize>0.04</fontSize>
+      </text>
+      <batteryIndicator name="batteryIndicator">
+         <incharge>./asset/images/battery/battery_charging.png</incharge>
+         <full>./asset/images/battery/battery_100.png</full>
+         <at75>./asset/images/battery/battery_75.png</at75>
+         <at50>./asset/images/battery/battery_50.png</at50>
+         <at25>./asset/images/battery/battery_25.png</at25>
+         <empty>./asset/images/battery/battery_0.png</empty>
+         <horizontalAlignment>left</horizontalAlignment>
+         <size>0.05625 0.075</size>
+         <color>FFFFFFFF</color>
+      </batteryIndicator>
+   </view>
+</theme>

@@ -1,0 +1,19 @@
+<!--
+   Theme : Persona 5
+   creator : Woo -wook
+   version: 1.1
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <variables>
+      <themeFontPath>./asset/fonts/font_h.ttf</themeFontPath>
+   </variables>
+   <view name="basic, detailed, video">
+      <textlist name="gamelist">
+         <fontSize>0.032</fontSize>
+         <lineSpacing>1.92</lineSpacing>
+      </textlist>
+   </view>
+</theme>

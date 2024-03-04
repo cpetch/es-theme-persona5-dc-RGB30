@@ -1,0 +1,30 @@
+<!--
+   Theme : Persona 5
+   creator : Woo -wook
+   version: 1.1
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <view name="menu">
+      <menuIcons name="menuicons">
+         <iconKodi>./asset/images/menu/Kodi.png</iconKodi>
+         <iconBrightnessctl>./asset/images/menu/Brightnessctl.png</iconBrightnessctl>
+<!--ArkoOS 추가-->
+         <iconSystem>./asset/images/menu/system.svg</iconSystem>
+         <iconGames>./asset/images/menu/settings.svg</iconGames>
+         <iconControllers>./asset/images/menu/controller.svg</iconControllers>
+         <iconUI>./asset/images/menu/ui.svg</iconUI>
+         <iconAdvanced>./asset/images/menu/collections.svg</iconAdvanced>
+         <iconSound>./asset/images/menu/sound.svg</iconSound>
+         <iconNetwork>./asset/images/menu/network.svg</iconNetwork>
+         <iconScraper>./asset/images/menu/scraper.svg</iconScraper>
+         <iconEmuelec>./asset/images/menu/es.svg</iconEmuelec>
+         <iconUpdates>./asset/images/menu/download.svg</iconUpdates>
+         <iconQuit>./asset/images/menu/quit.svg</iconQuit>
+         <iconRestart>./asset/images/menu/restart.svg</iconRestart>
+         <iconShutdown>./asset/images/menu/shutdown.svg</iconShutdown>
+      </menuIcons>
+   </view>
+</theme>

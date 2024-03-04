@@ -1,0 +1,31 @@
+<!--
+   Theme : Persona 5
+   creator : Woo -wook
+   version: 1.1
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+	<view name="basic">
+		<image name="logo">
+			<visible>true</visible>
+			<zIndex>5</zIndex>
+		</image>
+	</view>
+
+	<view name="detailed">
+		<image name="logo">
+			<visible>true</visible>
+			<zIndex>5</zIndex>
+		</image>
+	</view>
+
+	<view name="video">
+		<image name="logo">
+			<visible>true</visible>
+			<zIndex>5</zIndex>
+		</image>
+	</view>
+
+</theme>

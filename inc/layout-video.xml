@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Theme : Persona 5
+   creator : Woo -wook
+   version: 1.1
+-->
+
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <view name="video">
+
+      <image name="gamelist_bg" extra="true">
+         <path>./asset/images/gamelist_imagenvideo_bg.svg</path>
+      </image>
+      <image name="gamelist_video_bg" extra="true">
+         <path>./asset/images/gamelist_video_bg.svg</path>
+         <size>1 1</size>
+         <pos>0 0</pos>
+         <origin>0 0</origin>
+         <zIndex>2</zIndex>
+      </image>
+      <image name="gamelist_list_bg" extra="true">
+         <size>0.6125 0.375</size>
+         <pos>0.375 0.5875</pos>
+      </image>
+      <textlist name="gamelist"> 
+<!--          <fontSize>0.03</fontSize> -->
+         <size>0.555 0.32</size>
+         <pos>0.4 0.63</pos>
+         <horizontalMargin>0.01</horizontalMargin>
+      </textlist>
+      <image name="md_thumbnail">
+         <origin>0.5 0.5</origin>
+         <pos>0.198 0.545</pos>
+         <zIndex>1</zIndex>
+      </image>
+      <video name="md_video">
+         <!-- <origin>0.5 0.5</origin> -->
+         <!-- <maxSize>0.6375 2</maxSize> -->
+         <!-- <pos>0.68125 0.3375</pos> -->
+         <delay>1</delay>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>
+         <zIndex>1</zIndex>
+         <delay>0.5</delay>
+      </video>
+
+   </view>
+</theme>

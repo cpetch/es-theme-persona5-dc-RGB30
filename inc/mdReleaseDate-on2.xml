@@ -1,0 +1,29 @@
+<!--
+   Theme : Persona 5
+   creator : Woo -wook
+   version: 1.1
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <view name="detailed, video">
+      <datetime name="md_releasedate">
+         <size>0.15 0.05</size>
+         <pos>0.277 0.6475</pos>
+         <color>FFFFFF</color>
+         <fontSize>0.026</fontSize>
+         <format>%Y</format>
+         <alignment>left</alignment>
+         <rotation>-27</rotation>
+      </datetime>
+      <image name="release_bg" extra="true">
+         <path>./asset/images/release_bg.svg</path>
+         <origin>0 0</origin>
+         <size>0.205 0.2125</size>
+         <pos>0.2 0.6125</pos>
+         <zIndex>5</zIndex>
+      </image>
+   </view>
+
+</theme>

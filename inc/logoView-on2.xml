@@ -1,0 +1,52 @@
+<!--
+   Theme : Persona 5
+   creator : Woo -wook
+   version: 1.1
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+	<view name="basic">
+		<image name="logo">
+			<visible>true</visible>
+			<zIndex>5</zIndex>
+		</image>
+	</view>
+
+	<view name="detailed">
+		<image name="logo">
+			<visible>true</visible>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.30 0.200</maxSize>
+			<pos>0.50 0.12</pos>
+			<zIndex>5</zIndex>
+		</image>
+		<image name="md_marquee">
+			<origin>0.5 0.5</origin>
+			<size>0.25 0.200</size>
+			<pos>0.20 0.22</pos>
+			<zIndex>6</zIndex>
+			<rotation>7</rotation>
+		</image>
+	</view>
+
+	<view name="video">
+		<image name="logo">
+			<visible>true</visible>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.30 0.200</maxSize>
+			<pos>0.20 0.12</pos>
+			<rotation>7</rotation>
+			<zIndex>5</zIndex>
+		</image>
+		<image name="md_marquee">
+			<origin>0.5 0.5</origin>
+			<size>0.40 0.250</size>
+			<pos>0.50 0.10</pos>
+			<zIndex>6</zIndex>
+			<rotation>-26</rotation>
+		</image>
+	</view>
+
+</theme>

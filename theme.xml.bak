@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Theme : Persona 5
+	creator : Woo -wook
+	supporter : 듀얼코어
+	version: 1.1
+	edited by WakeTT
+-->
+
+<theme defaultTransition="slide">
+<formatVersion>7</formatVersion>
+
+
+	<subset name="시스템 로고 간격" displayName="시스템 로고 간격">
+		<include name="5" displayName="좁게">./inc/logoCount-5.xml</include>
+		<include name="3" displayName="넓게">./inc/logoCount-3.xml</include>
+	</subset>
+
+	<subset name="리스트뷰에서 로고 마퀴 표시" displayName="리스트뷰에서 로고 마퀴 표시">
+		<include name="on2" displayName="로고 마퀴 모두 보이기">./inc/logoView-on2.xml</include>
+		<include name="on" displayName="로고 보이기 마퀴 숨기기">./inc/logoView-on.xml</include>
+		<include name="off" displayName="로고 숨기기 마퀴 보이기">./inc/logoView-off.xml</include>
+		<include name="off2" displayName="로고 마퀴 모두 숨기기">./inc/logoView-off2.xml</include>
+	</subset>
+
+	<subset name="게임 수 표시" displayName="게임 수 표시">
+		<include name="on3" displayName="보이기 모두">./inc/gameCount-on_jel.xml</include>
+		<include name="off" displayName="숨기기">./inc/gameCount-off.xml</include>
+	</subset>
+
+	<subset name="배터리 위치 시계표시 여부" displayName="배터리 위치 시계표시 여부">
+		<include name="left" displayName="좌측">./inc/screen1.xml</include>
+		<include name="right" displayName="우측">./inc/screen2.xml</include>
+		<include name="off1" displayName="배터리 좌측 시계끄기">./inc/screen-off1.xml</include>
+		<include name="off2" displayName="배터리 우측 시계끄기">./inc/screen-off2.xml</include>
+	</subset>
+
+	<subset name="메뉴 아이콘 표시" displayName="메뉴 아이콘 표시">
+		<include name="on" displayName="보이기">./inc/menuIcon-on.xml</include>
+		<include name="off" displayName="숨기기">./inc/menuIcon-off.xml</include>
+	</subset>
+
+	<subset name="메인배경화면" displayName="메인배경화면">
+		<include name="bg1" displayName="배경화면1">./inc/bg1.xml</include>
+		<include name="bg2" displayName="배경화면2">./inc/bg2.xml</include>
+		<include name="bg3" displayName="배경화면3">./inc/bg3.xml</include>
+		<include name="bg4" displayName="배경화면4">./inc/bg4.xml</include>
+		<include name="bg5" displayName="배경화면5">./inc/bg5.xml</include>
+	</subset>
+
+   <subset name="모자 아이콘 표시" displayName="모자 아이콘 표시">
+      <include name="on" displayName="보이기">./inc/HatIcon-on.xml</include>
+      <include name="off" displayName="숨기기">./inc/HatIcon-off.xml</include>
+   </subset>
+
+	<subset name="폰트" displayName="폰트">
+		<include name="type2" displayName="스피드">./inc/font-type2.xml</include>
+		<include name="type1" displayName="로케트">./inc/font-type1.xml</include>
+		<include name="type9" displayName="SC드림">./inc/font-type9.xml</include>
+		<include name="type3" displayName="몬스터">./inc/font-type3.xml</include>
+		<include name="type4" displayName="타임머신">./inc/font-type4.xml</include>
+		<include name="type5" displayName="블랙">./inc/font-type5.xml</include>
+		<include name="type6" displayName="허리케인">./inc/font-type6.xml</include>
+		<include name="type7" displayName="카레이서">./inc/font-type7.xml</include>
+		<include name="type8" displayName="KOPUB돋움">./inc/font-type8.xml</include>
+		<include name="type0" displayName="네모의 꿈">./inc/font-type0.xml</include>
+	</subset>
+
+	<subset name="상세보기: 이미지 크기" displayName="상세보기: 이미지 크기">
+		<include name="full" displayName="비율 무시하고 채우기">./inc/detailedImage-full.xml</include>
+	  <include name="aspect" displayName="레터박스 생기더라도 맞추기">./inc/detailedImage-aspect.xml</include>
+		<include name="crop" displayName="잘리더라도 비율 유지하면서 채우기">./inc/detailedImage-crop.xml</include>
+	</subset>
+
+	<subset name="비디오: 이미지 크기" displayName="비디오: 이미지 크기">
+		<include name="aspect" displayName="레터박스 생기더라도 맞추기">./inc/videoImage-aspect.xml</include>
+		<include name="full" displayName="비율 무시하고 채우기">./inc/videoImage-full.xml</include>
+	</subset>
+
+	<subset name="비디오: 비디오 크기" displayName="비디오: 비디오 크기">
+		<include name="aspect" displayName="레터박스 생기더라도 맞추기">./inc/videoVideo-aspect.xml</include>
+		<include name="full" displayName="비율 무시하고 채우기">./inc/videoVideo-full.xml</include>
+	</subset>
+
+	<subset name="메타데이터: 발매일 표시" displayName="메타데이터: 발매일 표시">
+		<include name="on2" displayName="보이기 RGB30">./inc/mdReleaseDate-on2.xml</include>
+<!-- 		<include name="on" displayName="보이기">./inc/mdReleaseDate-on.xml</include> -->
+		<include name="off" displayName="숨기기">./inc/mdReleaseDate-off.xml</include>
+	</subset>
+
+	<subset name="메타데이터: 플레이 횟수 표시" displayName="메타데이터: 플레이 횟수 표시">
+		<include name="on2" displayName="보이기 RGB30">./inc/mdPlayTime-on2.xml</include>
+<!-- 		<include name="on" displayName="보이기">./inc/mdPlayTime-on.xml</include> -->
+		<include name="off" displayName="숨기기">./inc/mdPlayTime-off.xml</include>
+	</subset>
+
+	<subset name="메타데이터: 평점 표시" displayName="메타데이터: 평점 표시">
+		<include name="on2" displayName="보이기 RGB30">./inc/mdRating-on2.xml</include>
+<!-- 		<include name="on" displayName="보이기">./inc/mdRating-on.xml</include> -->
+		<include name="off" displayName="숨기기">./inc/mdRating-off.xml</include>
+	</subset>
+
+	<subset name="BGM 선택" displayName="BGM 선택 (ES 재시작 후 적용)">
+		<include name="bgm1" displayName="Wake Up, Get Up, Get Out There">./inc/bgm1.xml</include>
+		<include name="bgm2" displayName="Life Will Change">./inc/bgm2.xml</include>
+		<include name="bgm3" displayName="The Poem of Everyone’s Souls">./inc/bgm3.xml</include>
+		<include name="bgm4" displayName="Last Surprise">./inc/bgm4.xml</include>
+		<include name="bgm5" displayName="Beneath the Mask">./inc/bgm5.xml</include>
+		<include name="bgm6" displayName="Alleycat">./inc/bgm6.xml</include>
+		<include name="nobgm" displayName="끄기">./inc/mute.xml</include>
+	</subset>
+
+	<!-- 폰트 -->
+	<view name="system, basic, detailed, video, screen, menu">
+		<text name="systemInfo, clock, md_playcount"> <!--배터리 추가-->
+			<fontPath>${themeFontPath}</fontPath>
+		</text>
+		<textlist name="gamelist">
+			<fontPath>${themeFontPath}</fontPath>
+		</textlist>
+		<helpsystem name="help">
+			<fontPath>${themeFontPath}</fontPath>
+		</helpsystem>
+		<menuText name="menutitle, menutext, menufooter, menugroup">
+			<fontPath>${themeFontPath}</fontPath>
+		</menuText>
+		<datetime name="md_releasedate">
+			<fontPath>${themeFontPath}</fontPath>
+		</datetime>
+	</view>
+
+	<!-- 메인화면 시스템 휠 -->
+	<feature supported="carousel">
+		<view name="system">
+			<carousel name="systemcarousel">
+				<type>vertical_wheel</type>
+				<size>0.65 1</size>
+				<origin>0 0.5</origin>
+				<pos>0 0.5</pos>
+				<color>FFFFFF00</color>
+				<logoAlignment>left</logoAlignment>
+				<logoSize>0.3 0.2</logoSize>
+				<logoScale>2</logoScale>
+				<logoRotation>${logoRotationValue}</logoRotation>
+			<systemInfoDelay>120</systemInfoDelay>
+				<zIndex>5</zIndex>
+			</carousel>
+
+		<image name="mainBackground" extra="true">
+			<tile>false</tile>
+			<path>./asset/background/rgb30/${bgnumber}.png</path>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<zIndex>0</zIndex>
+		</image>
+<!--추가-->
+         <image name="hat" extra="true">
+            <path>./asset/images/new/hat.png</path>
+            <maxSize>0.30 0.45</maxSize>
+            <origin>0.5 0.5</origin>
+            <pos>0.775 0.775</pos>
+            <zIndex>4</zIndex>
+            <visible>${HatIconViewValue}</visible>
+         </image>
+<!--추가-->
+		</view>
+	</feature>
+	
+	<!-- 시스템 로고 -->
+	<view name="system, basic, detailed, video">
+		<image name="logo">
+			<path>./asset/logos/${system.theme}.png</path>
+			<path>./asset/logos/${system.theme}.svg</path>
+		</image>
+	</view>
+
+	<!-- 게임목록 공통 -->
+	<view name="basic, detailed, video">
+		<image name="gamelist_title_bg" extra="true">
+			<path>./asset/images/gamelist_title_bg.svg</path>
+			<origin>0 0</origin>
+			<size>1 0.225</size>
+			<pos>0 0</pos>
+			<zIndex>5</zIndex>
+		</image>
+		<textlist name="gamelist">
+			<separatorColor>00000000</separatorColor>
+			<selectorColor>FFFFFF</selectorColor>
+			<selectedColor>000000</selectedColor>
+			<primaryColor>FFFFFF</primaryColor>
+			<secondaryColor>FF0000</secondaryColor>
+			<alignment>center</alignment>
+			<!-- <fontSize>0.032</fontSize> -->
+			<!-- <lineSpacing>1.8</lineSpacing> -->
+			<selectorHeight>0.06</selectorHeight>
+			<zIndex>4</zIndex>
+		</textlist>
+		<image name="gamelist_bg" extra="true">
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<zIndex>0</zIndex>
+		</image>
+		<image name="gamelist_list_bg" extra="true">
+			<path>./asset/images/gamelist_list_bg.png</path>
+			<origin>0 0</origin>
+			<zIndex>3</zIndex>
+		</image>
+		<text name="md_lbl_releasedate, md_lbl_gametime, md_lbl_rating, md_lbl_playcount">
+			<visible>false</visible>
+		</text>
+	</view>
+
+	<!-- <include name="screen">./inc/screen.xml</include> -->
+	<include name="screen">./inc/help.xml</include>
+
+	<subset name="메뉴화면" displayName="메뉴화면">
+		<include name="menu2" displayName="메뉴화면 RGB30">./inc/menu2.xml</include>
+		<include name="menu1" displayName="메뉴화면 아크오에스">./inc/menu1.xml</include>
+		<include name="menu1-1" displayName="메뉴화면 젤로스">./inc/menu1-1.xml</include>
+	</subset>
+	<include name="menu">./inc/layout-basic.xml</include>
+	<include name="menu">./inc/layout-detailed.xml</include>
+	<include name="menu">./inc/layout-video.xml</include>
+
+</theme>
